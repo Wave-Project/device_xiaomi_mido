@@ -137,7 +137,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.qti.sys.fw.bservice_age=5000 \
 	ro.vendor.qti.sys.fw.bservice_limit=5 \
 	ro.vendor.qti.am.reschedule_service=true \
-	vendor.perf.gestureflingboost.enable=true
+	vendor.perf.gestureflingboost.enable=true \
+	ro.sys.fw.dex2oat_thread_count=8
 
 # Trim Properties - from mido-user-7.0-NRD90M-9.7.4-release-keys
 PRODUCT_PROPERTY_OVERRIDES += \
