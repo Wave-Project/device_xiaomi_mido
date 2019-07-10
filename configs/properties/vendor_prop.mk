@@ -204,3 +204,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+	sys.vendor.shutdown.waittime=500
