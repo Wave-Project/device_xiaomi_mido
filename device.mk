@@ -401,6 +401,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     dhcpcd.conf \
     wificond \
+    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
