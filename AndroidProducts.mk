@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosap_mido.mk
+    $(LOCAL_DIR)/arrow_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosap_mido-user \
-    aosap_mido-userdebug \
-    aosap_mido-eng
+    arrow_mido-user \
+    arrow_mido-userdebug \
+    arrow_mido-eng
