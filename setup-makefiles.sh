@@ -1,4 +1,4 @@
-#!/bin/bash
+\#!/bin/bash
 #
 # Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017, 2019 The LineageOS Project
@@ -28,9 +28,9 @@ INITIAL_COPYRIGHT_YEAR=2017
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-AOSAP_ROOT="${MY_DIR}/../../.."
+ARROW_ROOT="${MY_DIR}/../../.."
 
-HELPER="$AOSAP_ROOT/vendor/aosap/build/tools/extract_utils.sh"
+HELPER="$ARROW_ROOT/vendor/arrow/build/tools/extract_utils.sh"
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -38,7 +38,7 @@ fi
 source "${HELPER}"
 
 # Initialize the helper
-setup_vendor "${DEVICE}" "${VENDOR}" "${AOSAP_ROOT}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${ARROW_ROOT}"
 
 # Copyright headers and guards
 write_headers

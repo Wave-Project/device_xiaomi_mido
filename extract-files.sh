@@ -32,9 +32,9 @@ VENDOR=xiaomi
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-AOSAP_ROOT="${MY_DIR}/../../.."
+ARROW_ROOT="${MY_DIR}/../../.."
 
-HELPER="$AOSAP_ROOT/vendor/aosap/build/tools/extract_utils.sh"
+HELPER="$ARROW_ROOT/vendor/arrow/build/tools/extract_utils.sh"
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -71,12 +71,12 @@ if [ -z "${SRC}" ]; then
 fi
 
 # Initialize the helper
-setup_vendor "${DEVICE}" "${VENDOR}" "${AOSAP_ROOT}" false "${CLEAN_VENDOR}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${ARROW_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}"/proprietary-files.txt "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
-DEVICE_BLOB_ROOT="${AOSAP_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
+DEVICE_BLOB_ROOT="${ARROW_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
 
 # Camera configs
 sed -i "s|/system/etc/camera|/vendor/etc/camera|g" "${DEVICE_BLOB_ROOT}"/vendor/lib/libmmcamera2_sensor_modules.so
