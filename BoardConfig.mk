@@ -39,7 +39,7 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
-TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/configs/properties/system.prop
 
 # Kernel
 TARGET_KERNEL_CONFIG := mido_defconfig
