@@ -6,9 +6,7 @@
     "remote": "github" 
   },
   {
-    "repository": "android-eleven/proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
-    "branch": "318",
-    "remote": "github"
+    "repository": "proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
   }
 ]
