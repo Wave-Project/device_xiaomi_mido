@@ -200,3 +200,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.surface_flinger.supports_background_blur=1 \
 persist.sys.sf.disable_blurs=1 \
 ro.sf.blurs_are_expensive=1
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.device_config.runtime_native.usap_pool_enabled=true
