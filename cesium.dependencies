@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "CartelProject/kernel_xiaomi_mido",
+    "target_path": "kernel/xiaomi/mido",
+    "branch": "3.18",
+    "remote": "github" 
+  },
+  {
+    "repository": "android-eleven/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "318",
+    "remote": "github"
+  }
+]
