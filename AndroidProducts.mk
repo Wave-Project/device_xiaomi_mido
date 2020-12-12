@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_mido.mk
+    $(LOCAL_DIR)/cesium_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_mido-user \
-    arrow_mido-userdebug \
-    arrow_mido-eng
+    cesium_mido-user \
+    cesium_mido-userdebug \
+    cesium_mido-eng
