@@ -194,3 +194,9 @@ wifi.interface=wlan0
 # Wifi-Display
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.wfd.virtual=0
+
+# Blur
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.supports_background_blur=1 \
+persist.sys.sf.disable_blurs=1 \
+ro.sf.blurs_are_expensive=1
