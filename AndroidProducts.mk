@@ -14,7 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_mido.mk
+    $(LOCAL_DIR)/cesium_mido.mk \
+    $(LOCAL_DIR)/cesium_mido_pgo.mk
 
 COMMON_LUNCH_CHOICES := \
     cesium_mido-user \
