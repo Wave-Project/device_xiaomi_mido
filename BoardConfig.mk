@@ -101,6 +101,9 @@ BOARD_USES_QCNE := true
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
+# Dexpreopt everything to speed up boot time.
+WITH_DEXPREOPT := true
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 TARGET_USES_ION := true
