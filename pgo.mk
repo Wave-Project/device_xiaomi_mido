@@ -15,10 +15,6 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/mido/cesium_mido.mk)
-
-PRODUCT_NAME := cesium_mido_pgo
-
 # Add profcollectd to PRODUCT_PACKAGES.
 PRODUCT_PACKAGES += profcollectctl profcollectd
 
