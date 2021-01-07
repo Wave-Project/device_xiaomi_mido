@@ -228,7 +228,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	sys.vendor.shutdown.waittime=500
 
 # LMKD
-PRODUCT_PRODUCT_PROPERTIES += \
+PRODUCT_PROPERTY_OVERRIDES += \
 	ro.lmk.low=1001 \
 	ro.lmk.medium=0 \
 	ro.lmk.critical=0 \
@@ -239,3 +239,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 	ro.lmk.kill_timeout_ms=100 \
 	ro.lmk.use_minfree_levels=true \
 	ro.lmk.log_stats=true
+
+# WaveOS
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.wave.maintainer=gaganmalvi
