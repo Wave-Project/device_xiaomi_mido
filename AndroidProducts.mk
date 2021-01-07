@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_mido.mk
+    $(LOCAL_DIR)/wave_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_mido-user \
-    cesium_mido-userdebug \
-    cesium_mido-eng
+    wave_mido-user \
+    wave_mido-userdebug \
+    wave_mido-eng
